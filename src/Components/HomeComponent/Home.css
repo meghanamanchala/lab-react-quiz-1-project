@@ -1,0 +1,30 @@
+*{
+    background-color: blueviolet;
+}
+
+.Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.heading-home {
+    color: white;
+}
+
+.play-btn-home{
+    background-color: green;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: 1px solid green;
+    cursor: pointer;
+}
+
+.play-btn-home:hover {
+    background-color: #b929a3;
+    color: yellow;
+}

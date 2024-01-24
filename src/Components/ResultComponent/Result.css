@@ -1,0 +1,54 @@
+*{
+  background-color: blueviolet;
+}
+.main-container-2 {
+  background-color: white;
+  width: 80%;
+  height: auto;
+  font-size: large;
+  margin-left: 7rem;
+  padding: 10px;
+}
+.result-heading {
+  text-align: center;
+  color: white;
+}
+
+.p1,
+.p2 {
+  text-align: center;
+}
+.p1,
+.p2,
+.result-acc-ques,
+.results-acc-result,
+.q1,
+.a1,
+.play-again-back-home-btns,
+.playAgain,
+.backToHome {
+  background-color: transparent;
+}
+.result-acc-ques {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+
+  padding-right: 10px;
+}
+.play-again-back-home-btns {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 20px;
+}
+.playAgain {
+  background-color: white;
+  color: rgb(0, 145, 255);
+  border: 1px solid blue;
+}
+.backToHome {
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+}
